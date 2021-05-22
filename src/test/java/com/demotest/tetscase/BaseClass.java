@@ -42,7 +42,7 @@ public class BaseClass
 			System.setProperty("webdriver.chrome.driver", readconfig.getChromePath());
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
-			Logger logger=Logger.getLogger("demotest");
+			Logger logger=Logger.getLogger("BaseClass");
 			PropertyConfigurator.configure("log4j.properties");
 
 		}else if (br.equals("firefox"))

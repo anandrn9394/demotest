@@ -128,15 +128,15 @@
                   <a name="testChangePassword">
                   </a> <!-- testChangePassword -->
                   <span class="method-name">testChangePassword</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[id=&apos;oldpwd&apos;]&quot;}
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;changepwd&apos;]&quot;}
   (Session info: chrome=90.0.4430.212)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;MTPL-LT-DE-211&apos;, ip: &apos;192.168.225.209&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\DHULAP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64057}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 142e2ede4eea2216aa49a195fc8fa6c7
-*** Element info: {Using=xpath, value=//input[id=&apos;oldpwd&apos;]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\DHULAP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b563a4e7e58c48684fb48c65c0455fd1
+*** Element info: {Using=xpath, value=//input[@id=&apos;changepwd&apos;]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -150,8 +150,8 @@ Session ID: 142e2ede4eea2216aa49a195fc8fa6c7
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
-	at com.demotest.pageobjects.LogoutPage.enterOldPassword(LogoutPage.java:46)
-	at com.demotest.tetscase.TC_ChangePassword_003.testChangePassword(TC_ChangePassword_003.java:38)
+	at com.demotest.pageobjects.LogoutPage.enterNewPassword(LogoutPage.java:50)
+	at com.demotest.tetscase.TC_ChangePassword_003.testChangePassword(TC_ChangePassword_003.java:40)
 ... Removed 29 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -215,12 +215,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testChangePassword')
 data.setCell(0, 2, 'com.demotest.tetscase.TC_ChangePassword_003')
-data.setCell(0, 3, 7522);
+data.setCell(0, 3, 12699);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -255,11 +255,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testChangePassword</span>
-                <span class="method-start">1763 ms</span>
+                <span class="method-start">1942 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">9285 ms</span>
+                <span class="method-start">14657 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -2,21 +2,18 @@ package com.demotest.tetscase;
 
 import java.io.File;
 import java.io.IOException;
-import java.sql.Driver;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.demotest.pageobjects.LoginPage;
-import com.demotest.pageobjects.LogoutPage;	
+import com.demotest.pageobjects.LogoutPage;
 import com.google.common.io.Files;
-import com.graphbuilder.math.func.LgFunction;
 
 public class TC_ChangePassword_003 extends BaseClass
 {

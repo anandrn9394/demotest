@@ -1,13 +1,6 @@
 package com.demotest.tetscase;
-
-import java.io.File;
-import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -17,12 +10,11 @@ import org.testng.annotations.Parameters;
 
 import com.demotest.exceldata.ExcelLibrary;
 import com.demotest.utilities.ReadConfig;
-import com.google.common.io.Files;
+
 
 public class BaseClass 
 {
-	ReadConfig readconfig = new ReadConfig();
-	
+	ReadConfig readconfig = new ReadConfig();	
 	public String baseURL=readconfig.getApplicationUrl();
 	public String username=readconfig.setuserName();
 	public String password=readconfig.setuserPassWord();
@@ -48,9 +40,7 @@ public class BaseClass
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-//			Logger logger=Logger.getLogger("BaseClass");
-//			PropertyConfigurator.configure("log4j.properties");
-			
+
 
 		}else if (br.equals("firefox"))
 		{

@@ -4,6 +4,13 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="com.demotest.tetscase.TC_LoginTest_001">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- com.demotest.tetscase.TC_LoginTest_001 -->
       <class name="com.demotest.tetscase.TC_ChangePassword_003">
         <methods>
           <include name="openBrowser"/>
@@ -11,6 +18,20 @@
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- com.demotest.tetscase.TC_ChangePassword_003 -->
+      <class name="com.demotest.tetscase.TC_SchemeAdd_Test_001">
+        <methods>
+          <include name="testSchemeAdd"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.demotest.tetscase.TC_SchemeAdd_Test_001 -->
+      <class name="com.demotest.tetscase.TC_LogOut_Test_002">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="testLogOut"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.demotest.tetscase.TC_LogOut_Test_002 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

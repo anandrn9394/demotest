@@ -45,20 +45,32 @@ public class ReadConfig
 		String firefoxpath = pro.getProperty("firefoxpath");
 		return firefoxpath;
 	}
-	public String getOldPwd()
+	
+	public String getOldPassword()
 	{
-		String oldPassword1 = pro.getProperty("oldpassword"); 
-		return oldPassword1;
+		String oldpassword = pro.getProperty("oldpassword");
+		return oldpassword;
 	}
-	public String getNewPwd()
+	public String getNewPassword()
 	{
-		String newPassword1 = pro.getProperty("newpassword");
-		return newPassword1;
+		String newpassword= pro.getProperty("newpassword");
+		return newpassword;
 	}
-	public String getConfirmPwd()
+	public String getConfirmPassword()
 	{
-		String cnfrmPassword1 = pro.getProperty("confirmpassword");
-		return cnfrmPassword1;
+		String confirmpassword = pro.getProperty("confirmpassword");
+		return confirmpassword;
+	}
+	
+	public String getvalidUserName()
+	{
+		String validusername = pro.getProperty("validusername");
+		return validusername;
+	}
+	public String getInvalidPasword()
+	{
+		String invalidpassword = pro.getProperty("invalidpassword");
+		return invalidpassword;
 	}
 	
 }

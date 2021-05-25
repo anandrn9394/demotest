@@ -20,7 +20,7 @@ import com.graphbuilder.math.func.LgFunction;
 
 public class TC_ChangePassword_003 extends BaseClass
 {
-	@Test
+	@Test(priority=6)
 	public void testChangePassword() throws InterruptedException, IOException
 	{
 		driver.get(baseURL);
@@ -36,7 +36,6 @@ public class TC_ChangePassword_003 extends BaseClass
 		act.click(changepwd).perform();
 		Thread.sleep(3000);
 		lop.enterOldPassword(oldpassword);
-		Thread.sleep(3000);
 		lop.enterNewPassword(newpassword);
 		lop.enterConfirmPassword(confirmpassword);
 		lop.clickOnChangePwdButton();
@@ -44,12 +43,15 @@ public class TC_ChangePassword_003 extends BaseClass
 		Thread.sleep(3000);
 		//Take screenshot of pwd changed msg
 		File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		Files.copy(screenshot, new File("C:\\Users\\Dhulappa R N\\Project2\\demotest\\screenshot\\image.png"));
+		Files.copy(screenshot, new File("C:\\Users\\Dhulappa R N\\Project2\\demotest\\screenshot\\ChangePwdSuccess.png"));
+		
 				
 		String successMessage = driver.findElement(By.xpath("//div[text()='Successfully changed password']")).getText();
 		if (successMessage.equals("Successfully changed password"))
 		{
 			Assert.assertTrue(true);
+			System.out.println("Change password test pass");
+			
 		}
 		else {
 			Assert.assertTrue(false);

@@ -20,16 +20,16 @@ public class LogoutPage
 	WebElement logOut;
 	
 	@FindBy(xpath="//input[@id='oldpwd']")
-	WebElement oldPwd;
+	WebElement oldpassword;
 	
 	@FindBy(xpath="//input[@id='changepwd']")
-	WebElement newPwd;
+	WebElement newpassword;
 	
 	@FindBy(xpath="//input[@id='changepwdcnf']")
-	WebElement cnfrmPwd;
+	WebElement confirmpassword;
 	
 	@FindBy(xpath="//button[text()='Change Password']")
-	WebElement changePwdBtn;
+	WebElement changePasswordbutton;
 	
 
 	public void clickOnPersonI()
@@ -40,21 +40,24 @@ public class LogoutPage
 	{
 		logOut.click();
 	}
-	public void enterOldPassword(String oldPword)
+	
+	public void enterOldPassword(String oldpwd)
 	{
-		
-		oldPwd.sendKeys(oldPword);
+		oldpassword.sendKeys(oldpwd);
 	}
-	public void enterNewPassword(String newPword)
+	
+	public void enterNewPassword(String newpwd)
 	{
-		newPwd.sendKeys(newPword);
+		newpassword.sendKeys(newpwd);
 	}
-	public void enterConfirmPassword(String confirmPword)
+	
+	public void enterConfirmPassword(String confrmpwd)
 	{
-		cnfrmPwd.sendKeys(confirmPword);
+		confirmpassword.sendKeys(confrmpwd);
 	}
+	
 	public void clickOnChangePwdButton()
 	{
-		changePwdBtn.click();
+		changePasswordbutton.click();
 	}
 }

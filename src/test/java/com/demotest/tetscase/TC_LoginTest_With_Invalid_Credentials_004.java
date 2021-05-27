@@ -34,7 +34,7 @@ public class TC_LoginTest_With_Invalid_Credentials_004 extends BaseClass
 		if (actualErrorMessage.equals(expectedErrorMessage))
 		{
 			Assert.assertTrue(true);
-			System.out.println("Login With Invalid Tes Passed");
+			
 			
 		}
 		else {

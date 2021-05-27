@@ -27,6 +27,7 @@ public class TC_SchemeAdd_Test_001 extends BaseClass
 		lp.clickOnLogin();
 		SchemeCreatePage scp=new SchemeCreatePage(driver);
 		scp.clickOnMainMenu();
+		scp.clickOnDiscountMenu();
 		scp.clickOnNewScheme();
 		scp.clickOnApplyTypeButton();
 		Thread.sleep(3000);

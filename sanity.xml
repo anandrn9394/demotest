@@ -6,11 +6,12 @@
     <classes>
       
       <class name="com.demotest.tetscase.TC_LoginTest_001"/> 
-     <!--  <class name="com.demotest.tetscase.TC_LogOut_Test_002"/> 
+      <class name="com.demotest.tetscase.TC_LogOut_Test_002"/> 
       <class name="com.demotest.tetscase.LoginTestUsingExceldata"/>
       <class name="com.demotest.tetscase.TC_LoginTest_With_Invalid_Credentials_004"/>    
       <class name="com.demotest.tetscase.TC_SchemeAdd_Test_001"/>
-      <class name="com.demotest.tetscase.TC_ChangePassword_003"/> --> 
+      <class name="com.demotest.tetscase.TC_ChangePassword_003"/> 
+      
       
        </classes>
   </test> <!-- Test -->

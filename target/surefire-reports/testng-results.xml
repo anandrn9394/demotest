@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="76516" started-at="2021-05-26T11:19:46Z" finished-at="2021-05-26T11:21:02Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="76516" started-at="2021-05-26T11:19:46Z" finished-at="2021-05-26T11:21:02Z">
+      <class name="com.demotest.tetscase.TC_LoginTest_001">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.demotest.tetscase.TC_LoginTest_001@6a2bcfcb]" name="openBrowser" is-config="true" duration-ms="1958" started-at="2021-05-26T11:19:46Z" finished-at="2021-05-26T11:19:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testLogin()[pri:1, instance:com.demotest.tetscase.TC_LoginTest_001@6a2bcfcb]" name="testLogin" duration-ms="4678" started-at="2021-05-26T11:19:48Z" finished-at="2021-05-26T11:19:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demotest.tetscase.TC_LoginTest_001@6a2bcfcb]" name="closeBrowser" is-config="true" duration-ms="44" started-at="2021-05-26T11:19:52Z" finished-at="2021-05-26T11:19:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.demotest.tetscase.TC_LoginTest_001 -->
+      <class name="com.demotest.tetscase.TC_LogOut_Test_002">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.demotest.tetscase.TC_LogOut_Test_002@4de8b406]" name="openBrowser" is-config="true" duration-ms="1282" started-at="2021-05-26T11:19:52Z" finished-at="2021-05-26T11:19:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testLogOut()[pri:2, instance:com.demotest.tetscase.TC_LogOut_Test_002@4de8b406]" name="testLogOut" duration-ms="7959" started-at="2021-05-26T11:19:54Z" finished-at="2021-05-26T11:20:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogOut -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demotest.tetscase.TC_LogOut_Test_002@4de8b406]" name="closeBrowser" is-config="true" duration-ms="49" started-at="2021-05-26T11:20:02Z" finished-at="2021-05-26T11:20:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.demotest.tetscase.TC_LogOut_Test_002 -->
+      <class name="com.demotest.tetscase.TC_ChangePassword_003">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.demotest.tetscase.TC_ChangePassword_003@402f32ff]" name="openBrowser" is-config="true" duration-ms="1259" started-at="2021-05-26T11:20:49Z" finished-at="2021-05-26T11:20:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testChangePassword()[pri:6, instance:com.demotest.tetscase.TC_ChangePassword_003@402f32ff]" name="testChangePassword" duration-ms="12357" started-at="2021-05-26T11:20:50Z" finished-at="2021-05-26T11:21:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangePassword -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demotest.tetscase.TC_ChangePassword_003@402f32ff]" name="closeBrowser" is-config="true" duration-ms="77" started-at="2021-05-26T11:21:02Z" finished-at="2021-05-26T11:21:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.demotest.tetscase.TC_ChangePassword_003 -->
+      <class name="com.demotest.tetscase.TC_SchemeAdd_Test_001">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.demotest.tetscase.TC_SchemeAdd_Test_001@48eff760]" name="openBrowser" is-config="true" duration-ms="1210" started-at="2021-05-26T11:20:14Z" finished-at="2021-05-26T11:20:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testSchemeAdd()[pri:5, instance:com.demotest.tetscase.TC_SchemeAdd_Test_001@48eff760]" name="testSchemeAdd" duration-ms="33482" started-at="2021-05-26T11:20:15Z" finished-at="2021-05-26T11:20:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSchemeAdd -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demotest.tetscase.TC_SchemeAdd_Test_001@48eff760]" name="closeBrowser" is-config="true" duration-ms="167" started-at="2021-05-26T11:20:48Z" finished-at="2021-05-26T11:20:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.demotest.tetscase.TC_SchemeAdd_Test_001 -->
+      <class name="com.demotest.tetscase.LoginTestUsingExceldata">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.demotest.tetscase.LoginTestUsingExceldata@3c756e4d]" name="openBrowser" is-config="true" duration-ms="1365" started-at="2021-05-26T11:20:08Z" finished-at="2021-05-26T11:20:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginTestExcel()[pri:4, instance:com.demotest.tetscase.LoginTestUsingExceldata@3c756e4d]" name="loginTestExcel" duration-ms="4153" started-at="2021-05-26T11:20:09Z" finished-at="2021-05-26T11:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestExcel -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demotest.tetscase.LoginTestUsingExceldata@3c756e4d]" name="closeBrowser" is-config="true" duration-ms="54" started-at="2021-05-26T11:20:14Z" finished-at="2021-05-26T11:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.demotest.tetscase.LoginTestUsingExceldata -->
+      <class name="com.demotest.tetscase.TC_LoginTest_With_Invalid_Credentials_004">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.demotest.tetscase.TC_LoginTest_With_Invalid_Credentials_004@7c0e2abd]" name="openBrowser" is-config="true" duration-ms="1241" started-at="2021-05-26T11:20:02Z" finished-at="2021-05-26T11:20:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testLoginWithInvalidCred()[pri:3, instance:com.demotest.tetscase.TC_LoginTest_With_Invalid_Credentials_004@7c0e2abd]" name="testLoginWithInvalidCred" duration-ms="5125" started-at="2021-05-26T11:20:03Z" finished-at="2021-05-26T11:20:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidCred -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demotest.tetscase.TC_LoginTest_With_Invalid_Credentials_004@7c0e2abd]" name="closeBrowser" is-config="true" duration-ms="43" started-at="2021-05-26T11:20:08Z" finished-at="2021-05-26T11:20:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.demotest.tetscase.TC_LoginTest_With_Invalid_Credentials_004 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -19,8 +19,11 @@ public class SchemeCreatePage
 
 	@FindBy(xpath="//div[text()=' Main Menu']")
 	WebElement mainMenu;
-
-	@FindBy(xpath="//a[@href='/schemes/add']")
+	
+	@FindBy(xpath="(//a[@title='Discounts'])[1]")
+	WebElement discountslink;
+	
+	@FindBy(xpath="(//a[@title='New Scheme'])[2]")
 	WebElement newScheme;
 
 	@FindBy(xpath="//span[text()='Slab']")
@@ -41,7 +44,7 @@ public class SchemeCreatePage
 	@FindBy(xpath="(//input[@placeholder='Search'])[3]")
 	WebElement skuSearchField;
 
-	@FindBy(xpath="(//label[@title='- ProductAuto2 upc:5'])[2]")
+	@FindBy(xpath="(//label[@title='- product2 upc:5'])[2]")
 	WebElement selSearchedSku;
 
 	@FindBy(xpath="//input[@id='forQuantity0']")
@@ -75,6 +78,11 @@ public class SchemeCreatePage
 	public void clickOnMainMenu()
 	{
 		mainMenu.click();
+	}
+	
+	public void clickOnDiscountMenu()
+	{
+		discountslink.click();
 	}
 
 	public void clickOnNewScheme()

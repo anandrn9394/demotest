@@ -9,6 +9,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
 import com.demotest.exceldata.ExcelLibrary;
+import com.demotest.extentreport.ExtentReport;
 import com.demotest.utilities.ReadConfig;
 
 
@@ -27,12 +28,14 @@ public class BaseClass
     public String invalidpassword=readconfig.getInvalidPasword();
 	public static WebDriver driver;
 	public ExcelLibrary xlib;
+	public ExtentReport extrep;
 	
 
 	@Parameters("browser")
 	@BeforeClass
 	public void openBrowser(String br)
 	{
+		extrep=new ExtentReport();
 		xlib= new ExcelLibrary();
 		if (br.equals("chrome"))
 		{
@@ -40,7 +43,7 @@ public class BaseClass
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-
+            
 
 		}else if (br.equals("firefox"))
 		{

@@ -44,8 +44,8 @@ public class SchemeCreatePage
 	@FindBy(xpath="(//input[@placeholder='Search'])[3]")
 	WebElement skuSearchField;
 
-	@FindBy(xpath="(//label[@title='- product2 upc:5'])[2]")
-	WebElement selSearchedSku;
+//	@FindBy(xpath="(//label[@title='- product2 upc:5'])[2]")
+//	WebElement selSearchedSku;
 
 	@FindBy(xpath="//input[@id='forQuantity0']")
 	WebElement schmeQtys;
@@ -136,12 +136,12 @@ public class SchemeCreatePage
 
 	}
 
-	public void selectSku()
-	{
-		Actions act= new Actions(ldriver);
-		act.moveToElement(selSearchedSku).perform();
-		act.click(selSearchedSku).perform();
-	}
+//	public void selectSku()
+//	{
+//		Actions act= new Actions(ldriver);
+//		act.moveToElement(selSearchedSku).perform();
+//		act.click(selSearchedSku).perform();
+//	}
 
 	public void enterSchemeForQty(String forqty)
 	{

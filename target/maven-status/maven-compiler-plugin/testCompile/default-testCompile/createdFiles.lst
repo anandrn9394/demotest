@@ -1,6 +1,7 @@
 com\demotest\tetscase\TC_SchemeAdd_Test_001.class
 com\demotest\tetscase\TC_LoginTest_001.class
 com\demotest\exceldata\ExcelLibrary.class
+com\demotest\pageobjects\AssignSchemeToWarehousePage.class
 com\demotest\tetscase\TC_LoginTest_With_Invalid_Credentials_004.class
 com\demotest\utilities\ReadConfig.class
 com\demotest\pageobjects\LoginPage.class

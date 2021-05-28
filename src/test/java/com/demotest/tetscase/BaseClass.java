@@ -1,6 +1,9 @@
 package com.demotest.tetscase;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -9,7 +12,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
 import com.demotest.exceldata.ExcelLibrary;
-import com.demotest.extentreport.ExtentReport;
 import com.demotest.utilities.ReadConfig;
 
 
@@ -28,14 +30,16 @@ public class BaseClass
     public String invalidpassword=readconfig.getInvalidPasword();
 	public static WebDriver driver;
 	public ExcelLibrary xlib;
-	public ExtentReport extrep;
 	
+	public static Logger logger;
 
 	@Parameters("browser")
 	@BeforeClass
 	public void openBrowser(String br)
 	{
-		extrep=new ExtentReport();
+		logger=Logger.getLogger("demotest");
+		PropertyConfigurator.configure("log4j.properties");
+		
 		xlib= new ExcelLibrary();
 		if (br.equals("chrome"))
 		{
@@ -43,14 +47,15 @@ public class BaseClass
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-            
-
+			logger.info("Opened Chrome Browser");
+			
 		}else if (br.equals("firefox"))
 		{
 			System.setProperty("webdriver.gecko.driver", readconfig.getFireFoxPath());
 			driver = new FirefoxDriver();
 			driver.manage().window().maximize();
-
+			logger.info("Opened FireFox Browser");
+			
 
 		}
 	}

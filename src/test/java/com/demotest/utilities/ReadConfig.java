@@ -72,5 +72,6 @@ public class ReadConfig
 		String invalidpassword = pro.getProperty("invalidpassword");
 		return invalidpassword;
 	}
+
 	
 }

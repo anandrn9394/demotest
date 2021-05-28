@@ -13,39 +13,101 @@ public class AssignSchemeToWarehousePage
 		ldriver=rdriver;
 		PageFactory.initElements(rdriver, this);
 	}
-	@FindBy(xpath="//a[@title='Assign Schemes']")
+
+	@FindBy(xpath="(//a[@title='Assign Schemes'])[2]")
 	WebElement assignSchemeLink;
-	
+
 	@FindBy(xpath="//button[@title='Select Holder type']")
-    WebElement holdertype;
-	
+	WebElement holdertype;
+
 	@FindBy(xpath="(//input[@placeholder='Search'])[1]")
-    WebElement holdertypesearchfield;
-	
+	WebElement holdertypesearchfield;
+
 	@FindBy(xpath="(//button[@title='None selected'])[1]")
-	WebElement zoneholder;
-	
+	WebElement selzone;
+
 	@FindBy(xpath="(//input[@placeholder='Search'])[2]")
 	WebElement zonesearchfield;
-	
+
 	@FindBy(xpath="(//button[@title='None selected'])[3]")
-	WebElement subzoneholder;
-	
+	WebElement subzone;
+
 	@FindBy(xpath="(//input[@placeholder='Search'])[5]")
 	WebElement subzonesearchfield;
-	
+
 	@FindBy(xpath="(//button[@title='None selected'])[4]")
 	WebElement warehouseschemeholder;
-	
+
 	@FindBy(xpath="(//input[@placeholder='Search'])[7]")
-	WebElement schemeholdersearchfield;
-	
+	WebElement selwarehousesearchfield;
+
 	@FindBy(xpath="(//button[@title='None selected'])[13]")
 	WebElement selectscheme;
-	
+
 	@FindBy(xpath="(//input[@placeholder='Search'])[14]")
-    WebElement selectschemesearchfield;
-	
+	WebElement selectschemesearchfield;
+
 	@FindBy(xpath="//button[text()='Assign Scheme']")
 	WebElement assignschemebutton;
+
+	public void clickOnAssignScheme()
+	{
+		assignSchemeLink.click();
+	}
+	
+	public void clickOnHolderType()
+	{
+		holdertype.click();
+	}
+	
+	public void clickOnHolderTypeSearchField()
+	{
+		holdertypesearchfield.click();
+	}
+	
+	public void clickOnselzone()
+	{
+		selzone.click();
+	}
+	
+	public void clickOnzoneSearchField()
+	{
+		zonesearchfield.click();
+	}
+	
+	public void clickOnSubZone()
+	{
+		subzone.click();
+	}
+	
+	public void clickOnSubZoneSearchField()
+	{
+		subzonesearchfield.click();
+	}
+	
+	public void clickOnSelWarehousedistributor()
+	{
+		warehouseschemeholder.click();
+	}
+	
+	public void clickOnSelWarehouseDistributor()
+	{
+		selwarehousesearchfield.click();
+	}
+	
+	public void clickOnSelScheme()
+	{
+		selectscheme.click();
+	}
+	
+	public void clickOnSelSchemeSearchField()
+	{
+		selectschemesearchfield.click();
+	}
+	
+	public void clickOnAssignSchemeButton()
+	{
+		assignschemebutton.click();
+	}
+
 }

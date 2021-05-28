@@ -41,7 +41,12 @@ public class TC_SchemeAdd_Test_001 extends BaseClass
 		String skuName = xlib.getExcelData("CreateScheme", 1, 1);
 		scp.enterSkuName(skuName);
 		Thread.sleep(3000);
-		scp.selectSku();
+		String sku = xlib.getExcelData("CreateScheme", 1, 1);
+		String forsku=sku;
+		WebElement schemeSku= driver.findElement(By.xpath("//tbody/tr[@id='schemeRow0']/td[3]/span[1]/div[1]/ul/li/a/label[1][contains(text, "+sku+" )]"));
+		schemeSku.click();
+	
+		//scp.selectSku();
 		Thread.sleep(3000);
 		String forSchemeQuantities = xlib.getExcelData("CreateScheme", 1, 2);
 		scp.enterSchemeForQty(forSchemeQuantities);

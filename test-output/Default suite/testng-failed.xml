@@ -3,15 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.demotest.extentreport.ExtentReport">
+      <class name="com.demotest.tetscase.AssignSchemeToWarehouse">
         <methods>
-          <include name="setExtent"/>
-          <include name="loginTest"/>
-          <include name="endReport"/>
-          <include name="Result"/>
-          <include name="setUp"/>
+          <include name="testAssignSchemeToWarehouse"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- com.demotest.extentreport.ExtentReport -->
+      </class> <!-- com.demotest.tetscase.AssignSchemeToWarehouse -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

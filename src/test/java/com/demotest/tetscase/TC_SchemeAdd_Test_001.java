@@ -2,6 +2,11 @@ package com.demotest.tetscase;
 
 import java.io.File;
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -11,15 +16,18 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+
 import com.demotest.pageobjects.LoginPage;
 import com.demotest.pageobjects.SchemeCreatePage;
 import com.google.common.io.Files;
 
+
 public class TC_SchemeAdd_Test_001 extends BaseClass
 {
-	@Test(priority=5)
-	public void testSchemeAdd() throws InterruptedException, IOException
+	@Test
+	public void testSchemeAdd() throws InterruptedException, IOException, SQLException
 	{
+		
 		LoginPage lp = new LoginPage(driver);
 		driver.get(baseURL);
 		logger.info("Opened WebApplication Url");

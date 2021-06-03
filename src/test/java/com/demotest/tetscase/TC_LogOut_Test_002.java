@@ -17,7 +17,7 @@ import com.google.common.io.Files;
 
 public class TC_LogOut_Test_002 extends BaseClass
 {
-	@Test(priority=2)
+	@Test
 	public void testLogOut() throws InterruptedException, IOException
 	{
 		LoginPage lp = new LoginPage(driver);
@@ -54,7 +54,7 @@ public class TC_LogOut_Test_002 extends BaseClass
 		{
 			Assert.assertTrue(true);
 			logger.info("Compared expected and actual title after logout : Both matched and Test passed");
-			
+			Thread.sleep(3000);
 		}
 		else {
 			Assert.assertTrue(false);

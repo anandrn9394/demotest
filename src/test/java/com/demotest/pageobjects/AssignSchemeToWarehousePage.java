@@ -64,6 +64,10 @@ public class AssignSchemeToWarehousePage
 	{
 		holdertypesearchfield.click();
 	}
+	public void schemeHoldertype(String holdertype)
+	{
+		holdertypesearchfield.sendKeys(holdertype);
+	}
 	
 	public void clickOnselzone()
 	{
@@ -73,6 +77,10 @@ public class AssignSchemeToWarehousePage
 	public void clickOnzoneSearchField()
 	{
 		zonesearchfield.click();
+	}
+	public void enterZoneName(String zoneName)
+	{
+		zonesearchfield.sendKeys(zoneName);
 	}
 	
 	public void clickOnSubZone()
@@ -84,6 +92,10 @@ public class AssignSchemeToWarehousePage
 	{
 		subzonesearchfield.click();
 	}
+	public void enterSubZoneName(String subzoneName)
+	{
+		subzonesearchfield.sendKeys(subzoneName);
+	}
 	
 	public void clickOnSelWarehousedistributor()
 	{
@@ -93,6 +105,10 @@ public class AssignSchemeToWarehousePage
 	public void clickOnSelWarehouseDistributor()
 	{
 		selwarehousesearchfield.click();
+	}
+	public void enterHolderName(String holderName)
+	{
+		selwarehousesearchfield.sendKeys(holderName);
 	}
 	
 	public void clickOnSelScheme()
@@ -104,6 +120,11 @@ public class AssignSchemeToWarehousePage
 	{
 		selectschemesearchfield.click();
 	}
+	public void enterSchemeNameToSelect(String schemename)
+	{
+		selectschemesearchfield.sendKeys(schemename);
+	}
+	
 	
 	public void clickOnAssignSchemeButton()
 	{

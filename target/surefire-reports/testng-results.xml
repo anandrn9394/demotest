@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="8955" started-at="2021-05-28T05:01:20Z" finished-at="2021-05-28T05:01:29Z">
+  <suite name="Suite" duration-ms="75369" started-at="2021-06-03T01:30:54Z" finished-at="2021-06-03T01:32:09Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="8955" started-at="2021-05-28T05:01:20Z" finished-at="2021-05-28T05:01:29Z">
+    <test name="Test" duration-ms="75369" started-at="2021-06-03T01:30:54Z" finished-at="2021-06-03T01:32:09Z">
       <class name="com.demotest.tetscase.TC_LoginTest_001">
-        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.demotest.tetscase.TC_LoginTest_001@174d20a]" name="openBrowser" is-config="true" duration-ms="2105" started-at="2021-05-28T05:01:20Z" finished-at="2021-05-28T05:01:22Z">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.demotest.tetscase.TC_LoginTest_001@402f32ff]" name="openBrowser" is-config="true" duration-ms="2026" started-at="2021-06-03T01:30:54Z" finished-at="2021-06-03T01:30:56Z">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,99 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="testLogin()[pri:1, instance:com.demotest.tetscase.TC_LoginTest_001@174d20a]" name="testLogin" duration-ms="6793" started-at="2021-05-28T05:01:22Z" finished-at="2021-05-28T05:01:29Z">
+        <test-method status="PASS" signature="testLogIn()[pri:0, instance:com.demotest.tetscase.TC_LoginTest_001@402f32ff]" name="testLogIn" duration-ms="8942" started-at="2021-06-03T01:30:56Z" finished-at="2021-06-03T01:31:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demotest.tetscase.TC_LoginTest_001@174d20a]" name="closeBrowser" is-config="true" duration-ms="44" started-at="2021-05-28T05:01:29Z" finished-at="2021-05-28T05:01:29Z">
+        </test-method> <!-- testLogIn -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demotest.tetscase.TC_LoginTest_001@402f32ff]" name="closeBrowser" is-config="true" duration-ms="78" started-at="2021-06-03T01:31:04Z" finished-at="2021-06-03T01:31:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.demotest.tetscase.TC_LoginTest_001 -->
+      <class name="com.demotest.tetscase.TC_LogOut_Test_002">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.demotest.tetscase.TC_LogOut_Test_002@573f2bb1]" name="openBrowser" is-config="true" duration-ms="1330" started-at="2021-06-03T01:31:05Z" finished-at="2021-06-03T01:31:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testLogOut()[pri:0, instance:com.demotest.tetscase.TC_LogOut_Test_002@573f2bb1]" name="testLogOut" duration-ms="11827" started-at="2021-06-03T01:31:06Z" finished-at="2021-06-03T01:31:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogOut -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demotest.tetscase.TC_LogOut_Test_002@573f2bb1]" name="closeBrowser" is-config="true" duration-ms="91" started-at="2021-06-03T01:31:18Z" finished-at="2021-06-03T01:31:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.demotest.tetscase.TC_LogOut_Test_002 -->
+      <class name="com.demotest.tetscase.TC_SchemeAdd_Test_001">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.demotest.tetscase.TC_SchemeAdd_Test_001@548b7f67]" name="openBrowser" is-config="true" duration-ms="1277" started-at="2021-06-03T01:31:33Z" finished-at="2021-06-03T01:31:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testSchemeAdd()[pri:0, instance:com.demotest.tetscase.TC_SchemeAdd_Test_001@548b7f67]" name="testSchemeAdd" duration-ms="34738" started-at="2021-06-03T01:31:34Z" finished-at="2021-06-03T01:32:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSchemeAdd -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demotest.tetscase.TC_SchemeAdd_Test_001@548b7f67]" name="closeBrowser" is-config="true" duration-ms="59" started-at="2021-06-03T01:32:09Z" finished-at="2021-06-03T01:32:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.demotest.tetscase.TC_SchemeAdd_Test_001 -->
+      <class name="com.demotest.tetscase.LoginTestUsingExceldata">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.demotest.tetscase.LoginTestUsingExceldata@5ae9a829]" name="openBrowser" is-config="true" duration-ms="1183" started-at="2021-06-03T01:31:18Z" finished-at="2021-06-03T01:31:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginTestExcel()[pri:0, instance:com.demotest.tetscase.LoginTestUsingExceldata@5ae9a829]" name="loginTestExcel" duration-ms="6443" started-at="2021-06-03T01:31:19Z" finished-at="2021-06-03T01:31:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestExcel -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demotest.tetscase.LoginTestUsingExceldata@5ae9a829]" name="closeBrowser" is-config="true" duration-ms="49" started-at="2021-06-03T01:31:25Z" finished-at="2021-06-03T01:31:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.demotest.tetscase.LoginTestUsingExceldata -->
+      <class name="com.demotest.tetscase.TC_LoginTest_With_Invalid_Credentials_004">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.demotest.tetscase.TC_LoginTest_With_Invalid_Credentials_004@6d8a00e3]" name="openBrowser" is-config="true" duration-ms="1255" started-at="2021-06-03T01:31:26Z" finished-at="2021-06-03T01:31:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testLoginWithInvalidCred()[pri:0, instance:com.demotest.tetscase.TC_LoginTest_With_Invalid_Credentials_004@6d8a00e3]" name="testLoginWithInvalidCred" duration-ms="5995" started-at="2021-06-03T01:31:27Z" finished-at="2021-06-03T01:31:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidCred -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demotest.tetscase.TC_LoginTest_With_Invalid_Credentials_004@6d8a00e3]" name="closeBrowser" is-config="true" duration-ms="62" started-at="2021-06-03T01:31:33Z" finished-at="2021-06-03T01:31:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.demotest.tetscase.TC_LoginTest_With_Invalid_Credentials_004 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

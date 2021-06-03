@@ -72,6 +72,11 @@ public class ReadConfig
 		String invalidpassword = pro.getProperty("invalidpassword");
 		return invalidpassword;
 	}
+//	public String getSchemeIndex()
+//	{
+//		String schemeindexurl = pro.getProperty("schemeindexURL");
+//		return schemeindexurl;
+//	}
 
 	
 }

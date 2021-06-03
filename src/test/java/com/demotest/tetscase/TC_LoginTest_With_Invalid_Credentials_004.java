@@ -14,7 +14,7 @@ import com.google.common.io.Files;
 
 public class TC_LoginTest_With_Invalid_Credentials_004 extends BaseClass
 {
-	@Test(priority=3) 
+	@Test
 	public void testLoginWithInvalidCred() throws IOException, InterruptedException
 	{
 		

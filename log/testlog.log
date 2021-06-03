@@ -1,0 +1,579 @@
+2021-05-29 21:22:15,685 - demotest -INFO - Opened Chrome Browser
+2021-05-29 21:22:24,222 - demotest -INFO - Opened WebApplication url
+2021-05-29 21:22:24,284 - demotest -INFO - Entered User Name
+2021-05-29 21:22:24,341 - demotest -INFO - Entered Password
+2021-05-29 21:22:29,043 - demotest -INFO - Clicked On Login
+2021-05-29 21:22:29,126 - demotest -INFO - Login Page Screenshot Taken
+2021-05-29 21:22:29,131 - demotest -INFO - Captured the Login page Title
+2021-05-29 21:22:29,131 - demotest -INFO - Printed the Title on console
+2021-05-29 21:22:29,132 - demotest -INFO - Login Test passed
+2021-05-29 21:22:33,372 - demotest -INFO - Opened Chrome Browser
+2021-05-29 21:22:42,738 - demotest -INFO - Opened WebApplication url
+2021-05-29 21:22:42,792 - demotest -INFO - Entered user name
+2021-05-29 21:22:42,861 - demotest -INFO - Entered Password
+2021-05-29 21:22:49,827 - demotest -INFO - Clicked on Login Button
+2021-05-29 21:22:51,897 - demotest -INFO - Clicked on Person icon on Top right corner of page
+2021-05-29 21:22:53,322 - demotest -INFO - Clicked on LogOut
+2021-05-29 21:22:53,412 - demotest -INFO - ScreeShot taken after clicking on logout
+2021-05-29 21:22:53,446 - demotest -INFO - Compared expected and actual title after logout : Both matched and Test passed
+2021-05-29 21:22:57,733 - demotest -INFO - Opened Chrome Browser
+2021-05-29 21:23:06,099 - demotest -INFO - taken username from excel and entered in username field
+2021-05-29 21:23:06,234 - demotest -INFO - taken Password from excel and entered in username field
+2021-05-29 21:23:07,201 - demotest -INFO - Clicked On Login Button
+2021-05-29 21:23:07,274 - demotest -INFO - Screenshot captured after logout
+2021-05-29 21:23:07,279 - demotest -INFO - Compared actual title after logout and matched: Test Passed
+2021-05-29 21:23:08,457 - demotest -INFO - Opened Chrome Browser
+2021-05-29 21:23:13,379 - demotest -INFO - Opened Web Application url to test invalid credential test
+2021-05-29 21:23:13,427 - demotest -INFO - Entered valid user name
+2021-05-29 21:23:13,484 - demotest -INFO - Entered invalid user name
+2021-05-29 21:23:16,393 - demotest -INFO - Clicked on Login
+2021-05-29 21:23:16,487 - demotest -INFO - ScreenShot taken after clickin on login
+2021-05-29 21:23:16,521 - demotest -INFO - Invalid credentials not allowed to Login: Test Pass
+2021-05-29 21:23:17,742 - demotest -INFO - Opened Chrome Browser
+2021-05-29 21:23:25,357 - demotest -INFO - Opened WebApplication Url
+2021-05-29 21:23:25,416 - demotest -INFO - Entered User Name
+2021-05-29 21:23:25,486 - demotest -INFO - Entered Password
+2021-05-29 21:23:37,130 - demotest -INFO - Clicked on Login
+2021-05-29 21:23:37,187 - demotest -INFO - Clicked on Main Menu
+2021-05-29 21:23:41,822 - demotest -INFO - Clicked on Discounts Menu
+2021-05-29 21:23:44,304 - demotest -INFO - Clicked on New Scheme Menu
+2021-05-29 21:23:44,390 - demotest -INFO - Clicked on Apply Type drop down
+2021-05-29 21:23:47,680 - demotest -INFO - Selected Apply Type
+2021-05-29 21:23:50,814 - demotest -INFO - Entered scheme Name in scheme Name field
+2021-05-29 21:23:50,880 - demotest -INFO - Clicked on Select Product button
+2021-05-29 21:23:53,982 - demotest -INFO - Clicked on search field under sel product
+2021-05-29 21:23:54,060 - demotest -INFO - Entered the For Sku Name
+2021-05-29 21:23:57,157 - demotest -INFO - Clicked on Searched for skunit
+2021-05-29 21:24:00,265 - demotest -INFO - Entered scheme For quantities
+2021-05-29 21:24:02,358 - demotest -INFO - Entered save cash
+2021-05-29 21:24:02,433 - demotest -INFO - Entered Max save cash
+2021-05-29 21:24:02,520 - demotest -INFO - Entered scheme discount %
+2021-05-29 21:24:02,622 - demotest -INFO - Clicked on Start date field
+2021-05-29 21:24:02,795 - demotest -INFO - Selected scheme start month from date picker
+2021-05-29 21:24:05,921 - demotest -INFO - Selected scheme start day/date from date picker
+2021-05-29 21:24:06,031 - demotest -INFO - Clicked on End date field from date picker
+2021-05-29 21:24:06,224 - demotest -INFO - Selected scheme end month from date picker
+2021-05-29 21:24:06,310 - demotest -INFO - Selected scheme end day/date from date picker
+2021-05-29 21:24:08,220 - demotest -INFO - Clicked on save all button
+2021-05-29 21:24:08,303 - demotest -INFO - After adding scheme, captured screenshot and stored in screenshot folder
+2021-05-29 21:24:08,337 - demotest -INFO - compared expected success message and actual: Both Matched
+2021-05-29 21:51:38,235 - demotest -INFO - Opened Chrome Browser
+2021-05-29 21:51:44,245 - demotest -INFO - Opened WebApplication url
+2021-05-29 21:51:44,323 - demotest -INFO - Entered User Name
+2021-05-29 21:51:44,414 - demotest -INFO - Entered Password
+2021-05-29 21:51:48,048 - demotest -INFO - Clicked On Login
+2021-05-29 21:51:48,141 - demotest -INFO - Login Page Screenshot Taken
+2021-05-29 21:51:48,146 - demotest -INFO - Captured the Login page Title
+2021-05-29 21:51:48,146 - demotest -INFO - Printed the Title on console
+2021-05-29 21:51:48,147 - demotest -INFO - Login Test passed
+2021-05-29 21:51:52,377 - demotest -INFO - Opened Chrome Browser
+2021-05-29 21:51:55,545 - demotest -INFO - Opened WebApplication url
+2021-05-29 21:51:55,605 - demotest -INFO - Entered user name
+2021-05-29 21:51:55,664 - demotest -INFO - Entered Password
+2021-05-29 21:51:59,096 - demotest -INFO - Clicked on Login Button
+2021-05-29 21:52:01,162 - demotest -INFO - Clicked on Person icon on Top right corner of page
+2021-05-29 21:52:03,730 - demotest -INFO - Clicked on LogOut
+2021-05-29 21:52:03,795 - demotest -INFO - ScreeShot taken after clicking on logout
+2021-05-29 21:52:03,833 - demotest -INFO - Compared expected and actual title after logout : Both matched and Test passed
+2021-05-29 21:52:08,060 - demotest -INFO - Opened Chrome Browser
+2021-05-29 21:52:17,205 - demotest -INFO - taken username from excel and entered in username field
+2021-05-29 21:52:17,295 - demotest -INFO - taken Password from excel and entered in username field
+2021-05-29 21:52:25,026 - demotest -INFO - Clicked On Login Button
+2021-05-29 21:52:25,108 - demotest -INFO - Screenshot captured after logout
+2021-05-29 21:52:25,112 - demotest -INFO - Compared actual title after logout and matched: Test Passed
+2021-05-29 21:52:26,340 - demotest -INFO - Opened Chrome Browser
+2021-05-29 21:52:36,712 - demotest -INFO - Opened Web Application url to test invalid credential test
+2021-05-29 21:52:36,768 - demotest -INFO - Entered valid user name
+2021-05-29 21:52:36,836 - demotest -INFO - Entered invalid user name
+2021-05-29 21:52:39,892 - demotest -INFO - Clicked on Login
+2021-05-29 21:52:39,961 - demotest -INFO - ScreenShot taken after clickin on login
+2021-05-29 21:52:39,992 - demotest -INFO - Invalid credentials not allowed to Login: Test Pass
+2021-05-29 21:52:41,199 - demotest -INFO - Opened Chrome Browser
+2021-05-29 21:52:46,037 - demotest -INFO - Opened WebApplication Url
+2021-05-29 21:52:46,090 - demotest -INFO - Entered User Name
+2021-05-29 21:52:46,164 - demotest -INFO - Entered Password
+2021-05-29 21:52:49,813 - demotest -INFO - Clicked on Login
+2021-05-29 21:52:49,861 - demotest -INFO - Clicked on Main Menu
+2021-05-29 21:52:51,872 - demotest -INFO - Clicked on Discounts Menu
+2021-05-29 21:52:54,062 - demotest -INFO - Clicked on New Scheme Menu
+2021-05-29 21:52:54,139 - demotest -INFO - Clicked on Apply Type drop down
+2021-05-29 21:52:57,463 - demotest -INFO - Selected Apply Type
+2021-05-29 21:53:00,620 - demotest -INFO - Entered scheme Name in scheme Name field
+2021-05-29 21:53:00,687 - demotest -INFO - Clicked on Select Product button
+2021-05-29 21:53:03,781 - demotest -INFO - Clicked on search field under sel product
+2021-05-29 21:53:03,862 - demotest -INFO - Entered the For Sku Name
+2021-05-29 21:53:06,960 - demotest -INFO - Clicked on Searched for skunit
+2021-05-29 21:53:10,078 - demotest -INFO - Entered scheme For quantities
+2021-05-29 21:53:12,178 - demotest -INFO - Entered save cash
+2021-05-29 21:53:12,257 - demotest -INFO - Entered Max save cash
+2021-05-29 21:53:12,341 - demotest -INFO - Entered scheme discount %
+2021-05-29 21:53:12,457 - demotest -INFO - Clicked on Start date field
+2021-05-29 21:53:12,646 - demotest -INFO - Selected scheme start month from date picker
+2021-05-29 21:53:15,751 - demotest -INFO - Selected scheme start day/date from date picker
+2021-05-29 21:53:15,838 - demotest -INFO - Clicked on End date field from date picker
+2021-05-29 21:53:16,005 - demotest -INFO - Selected scheme end month from date picker
+2021-05-29 21:53:16,110 - demotest -INFO - Selected scheme end day/date from date picker
+2021-05-29 21:53:18,685 - demotest -INFO - Clicked on save all button
+2021-05-29 21:53:18,761 - demotest -INFO - After adding scheme, captured screenshot and stored in screenshot folder
+2021-05-29 21:53:18,789 - demotest -INFO - compared expected success message and actual: Both Matched
+2021-05-29 21:55:25,065 - demotest -INFO - Opened Chrome Browser
+2021-05-29 21:55:31,347 - demotest -INFO - Opened WebApplication url
+2021-05-29 21:55:31,425 - demotest -INFO - Entered User Name
+2021-05-29 21:55:31,501 - demotest -INFO - Entered Password
+2021-05-29 21:55:34,919 - demotest -INFO - Clicked On Login
+2021-05-29 21:55:35,092 - demotest -INFO - Login Page Screenshot Taken
+2021-05-29 21:55:35,098 - demotest -INFO - Captured the Login page Title
+2021-05-29 21:55:35,098 - demotest -INFO - Printed the Title on console
+2021-05-29 21:55:35,100 - demotest -INFO - Login Test passed
+2021-05-29 21:55:39,375 - demotest -INFO - Opened Chrome Browser
+2021-05-29 21:55:42,937 - demotest -INFO - Opened WebApplication url
+2021-05-29 21:55:43,027 - demotest -INFO - Entered user name
+2021-05-29 21:55:43,091 - demotest -INFO - Entered Password
+2021-05-29 21:55:46,047 - demotest -INFO - Clicked on Login Button
+2021-05-29 21:55:48,127 - demotest -INFO - Clicked on Person icon on Top right corner of page
+2021-05-29 21:55:49,963 - demotest -INFO - Clicked on LogOut
+2021-05-29 21:55:50,140 - demotest -INFO - ScreeShot taken after clicking on logout
+2021-05-29 21:55:50,169 - demotest -INFO - Compared expected and actual title after logout : Both matched and Test passed
+2021-05-29 21:55:54,414 - demotest -INFO - Opened Chrome Browser
+2021-05-29 21:55:58,530 - demotest -INFO - taken username from excel and entered in username field
+2021-05-29 21:55:58,621 - demotest -INFO - taken Password from excel and entered in username field
+2021-05-29 21:55:59,989 - demotest -INFO - Clicked On Login Button
+2021-05-29 21:56:00,147 - demotest -INFO - Screenshot captured after logout
+2021-05-29 21:56:00,152 - demotest -INFO - Compared actual title after logout and matched: Test Passed
+2021-05-29 21:56:01,486 - demotest -INFO - Opened Chrome Browser
+2021-05-29 21:56:06,104 - demotest -INFO - Opened Web Application url to test invalid credential test
+2021-05-29 21:56:06,162 - demotest -INFO - Entered valid user name
+2021-05-29 21:56:06,232 - demotest -INFO - Entered invalid user name
+2021-05-29 21:56:09,165 - demotest -INFO - Clicked on Login
+2021-05-29 21:56:09,345 - demotest -INFO - ScreenShot taken after clickin on login
+2021-05-29 21:56:09,372 - demotest -INFO - Invalid credentials not allowed to Login: Test Pass
+2021-05-29 21:56:10,622 - demotest -INFO - Opened Chrome Browser
+2021-05-29 21:56:14,263 - demotest -INFO - Opened WebApplication Url
+2021-05-29 21:56:14,319 - demotest -INFO - Entered User Name
+2021-05-29 21:56:14,391 - demotest -INFO - Entered Password
+2021-05-29 21:56:17,395 - demotest -INFO - Clicked on Login
+2021-05-29 21:56:17,475 - demotest -INFO - Clicked on Main Menu
+2021-05-29 21:56:19,305 - demotest -INFO - Clicked on Discounts Menu
+2021-05-29 21:56:21,013 - demotest -INFO - Clicked on New Scheme Menu
+2021-05-29 21:56:21,084 - demotest -INFO - Clicked on Apply Type drop down
+2021-05-29 21:56:24,414 - demotest -INFO - Selected Apply Type
+2021-05-29 21:56:27,557 - demotest -INFO - Entered scheme Name in scheme Name field
+2021-05-29 21:56:27,626 - demotest -INFO - Clicked on Select Product button
+2021-05-29 21:56:30,727 - demotest -INFO - Clicked on search field under sel product
+2021-05-29 21:56:30,798 - demotest -INFO - Entered the For Sku Name
+2021-05-29 21:56:33,892 - demotest -INFO - Clicked on Searched for skunit
+2021-05-29 21:56:36,997 - demotest -INFO - Entered scheme For quantities
+2021-05-29 21:56:39,092 - demotest -INFO - Entered save cash
+2021-05-29 21:56:39,183 - demotest -INFO - Entered Max save cash
+2021-05-29 21:56:39,260 - demotest -INFO - Entered scheme discount %
+2021-05-29 21:56:39,346 - demotest -INFO - Clicked on Start date field
+2021-05-29 21:56:39,520 - demotest -INFO - Selected scheme start month from date picker
+2021-05-29 21:56:42,642 - demotest -INFO - Selected scheme start day/date from date picker
+2021-05-29 21:56:42,728 - demotest -INFO - Clicked on End date field from date picker
+2021-05-29 21:56:42,897 - demotest -INFO - Selected scheme end month from date picker
+2021-05-29 21:56:42,998 - demotest -INFO - Selected scheme end day/date from date picker
+2021-05-29 21:56:45,417 - demotest -INFO - Clicked on save all button
+2021-05-29 21:56:45,592 - demotest -INFO - After adding scheme, captured screenshot and stored in screenshot folder
+2021-05-29 21:56:45,617 - demotest -INFO - compared expected success message and actual: Both Matched
+2021-05-30 09:46:28,914 - demotest -INFO - Opened Chrome Browser
+2021-05-30 09:46:30,874 - demotest -INFO - Opened Chrome Browser
+2021-05-30 09:46:32,370 - demotest -INFO - Opened Chrome Browser
+2021-05-30 09:46:33,873 - demotest -INFO - Opened Chrome Browser
+2021-05-30 09:46:35,413 - demotest -INFO - Opened Chrome Browser
+2021-05-31 07:10:13,156 - demotest -INFO - Opened Chrome Browser
+2021-05-31 07:11:05,260 - demotest -INFO - Opened WebApplication url
+2021-05-31 07:11:05,348 - demotest -INFO - Entered User Name
+2021-05-31 07:11:05,428 - demotest -INFO - Entered Password
+2021-05-31 07:11:08,598 - demotest -INFO - Clicked On Login
+2021-05-31 07:11:08,710 - demotest -INFO - Login Page Screenshot Taken
+2021-05-31 07:11:08,718 - demotest -INFO - Captured the Login page Title
+2021-05-31 07:11:08,718 - demotest -INFO - Printed the Title on console
+2021-05-31 07:11:08,726 - demotest -INFO - Login Test passed
+2021-05-31 07:11:13,054 - demotest -INFO - Opened Chrome Browser
+2021-05-31 07:11:15,291 - demotest -INFO - Opened WebApplication url
+2021-05-31 07:11:15,371 - demotest -INFO - Entered user name
+2021-05-31 07:11:15,451 - demotest -INFO - Entered Password
+2021-05-31 07:11:18,195 - demotest -INFO - Clicked on Login Button
+2021-05-31 07:11:20,277 - demotest -INFO - Clicked on Person icon on Top right corner of page
+2021-05-31 07:11:21,904 - demotest -INFO - Clicked on LogOut
+2021-05-31 07:11:22,025 - demotest -INFO - ScreeShot taken after clicking on logout
+2021-05-31 07:11:22,076 - demotest -INFO - Compared expected and actual title after logout : Both matched and Test passed
+2021-05-31 07:11:26,581 - demotest -INFO - Opened Chrome Browser
+2021-05-31 07:11:30,982 - demotest -INFO - taken username from excel and entered in username field
+2021-05-31 07:11:31,194 - demotest -INFO - taken Password from excel and entered in username field
+2021-05-31 07:11:32,506 - demotest -INFO - Clicked On Login Button
+2021-05-31 07:11:32,663 - demotest -INFO - Screenshot captured after logout
+2021-05-31 07:11:32,669 - demotest -INFO - Compared actual title after logout and matched: Test Passed
+2021-05-31 07:11:34,019 - demotest -INFO - Opened Chrome Browser
+2021-05-31 07:11:37,533 - demotest -INFO - Opened Web Application url to test invalid credential test
+2021-05-31 07:11:37,625 - demotest -INFO - Entered valid user name
+2021-05-31 07:11:37,728 - demotest -INFO - Entered invalid user name
+2021-05-31 07:11:40,626 - demotest -INFO - Clicked on Login
+2021-05-31 07:11:40,732 - demotest -INFO - ScreenShot taken after clickin on login
+2021-05-31 07:11:40,769 - demotest -INFO - Invalid credentials not allowed to Login: Test Pass
+2021-05-31 07:11:42,045 - demotest -INFO - Opened Chrome Browser
+2021-05-31 07:11:45,471 - demotest -INFO - Opened WebApplication Url
+2021-05-31 07:11:45,555 - demotest -INFO - Entered User Name
+2021-05-31 07:11:45,647 - demotest -INFO - Entered Password
+2021-05-31 07:11:48,702 - demotest -INFO - Clicked on Login
+2021-05-31 07:11:48,804 - demotest -INFO - Clicked on Main Menu
+2021-05-31 07:11:50,317 - demotest -INFO - Clicked on Discounts Menu
+2021-05-31 07:11:51,717 - demotest -INFO - Clicked on New Scheme Menu
+2021-05-31 07:11:51,837 - demotest -INFO - Clicked on Apply Type drop down
+2021-05-31 07:11:55,194 - demotest -INFO - Selected Apply Type
+2021-05-31 07:11:58,415 - demotest -INFO - Entered scheme Name in scheme Name field
+2021-05-31 07:11:58,518 - demotest -INFO - Clicked on Select Product button
+2021-05-31 07:12:01,640 - demotest -INFO - Clicked on search field under sel product
+2021-05-31 07:12:01,785 - demotest -INFO - Entered the For Sku Name
+2021-05-31 07:12:04,917 - demotest -INFO - Clicked on Searched for skunit
+2021-05-31 07:12:08,088 - demotest -INFO - Entered scheme For quantities
+2021-05-31 07:12:10,250 - demotest -INFO - Entered save cash
+2021-05-31 07:12:10,375 - demotest -INFO - Entered Max save cash
+2021-05-31 07:12:10,536 - demotest -INFO - Entered scheme discount %
+2021-05-31 07:12:10,697 - demotest -INFO - Clicked on Start date field
+2021-05-31 07:12:10,974 - demotest -INFO - Selected scheme start month from date picker
+2021-05-31 07:12:14,150 - demotest -INFO - Selected scheme start day/date from date picker
+2021-05-31 07:12:14,343 - demotest -INFO - Clicked on End date field from date picker
+2021-05-31 07:12:14,610 - demotest -INFO - Selected scheme end month from date picker
+2021-05-31 07:12:14,775 - demotest -INFO - Selected scheme end day/date from date picker
+2021-05-31 07:12:16,862 - demotest -INFO - Clicked on save all button
+2021-05-31 07:12:16,985 - demotest -INFO - After adding scheme, captured screenshot and stored in screenshot folder
+2021-05-31 07:12:17,024 - demotest -INFO - compared expected success message and actual: Both Matched
+2021-05-31 09:46:19,203 - demotest -INFO - Opened Chrome Browser
+2021-05-31 09:52:18,310 - demotest -INFO - Opened Chrome Browser
+2021-05-31 09:52:24,495 - demotest -INFO - Opened WebApplication Url
+2021-05-31 09:52:24,570 - demotest -INFO - Entered User Name
+2021-05-31 09:52:24,630 - demotest -INFO - Entered Password
+2021-05-31 09:52:32,086 - demotest -INFO - Clicked on Login
+2021-05-31 09:52:32,144 - demotest -INFO - Clicked on Main Menu
+2021-05-31 09:52:36,946 - demotest -INFO - Clicked on Discounts Menu
+2021-05-31 09:52:39,937 - demotest -INFO - Clicked on New Scheme Menu
+2021-05-31 09:52:39,996 - demotest -INFO - Clicked on Apply Type drop down
+2021-05-31 09:52:43,313 - demotest -INFO - Selected Apply Type
+2021-05-31 09:52:46,935 - demotest -INFO - Entered scheme Name in scheme Name field
+2021-05-31 09:52:47,004 - demotest -INFO - Clicked on Select Product button
+2021-05-31 09:52:50,096 - demotest -INFO - Clicked on search field under sel product
+2021-05-31 09:52:50,176 - demotest -INFO - Entered the For Sku Name
+2021-05-31 09:52:53,265 - demotest -INFO - Clicked on Searched for skunit
+2021-05-31 09:52:56,374 - demotest -INFO - Entered scheme For quantities
+2021-05-31 09:52:58,471 - demotest -INFO - Entered save cash
+2021-05-31 09:52:58,551 - demotest -INFO - Entered Max save cash
+2021-05-31 09:52:58,631 - demotest -INFO - Entered scheme discount %
+2021-05-31 09:52:58,714 - demotest -INFO - Clicked on Start date field
+2021-05-31 09:52:58,924 - demotest -INFO - Selected scheme start month from date picker
+2021-05-31 09:53:02,033 - demotest -INFO - Selected scheme start day/date from date picker
+2021-05-31 09:53:02,131 - demotest -INFO - Clicked on End date field from date picker
+2021-05-31 09:53:02,310 - demotest -INFO - Selected scheme end month from date picker
+2021-05-31 09:53:02,395 - demotest -INFO - Selected scheme end day/date from date picker
+2021-05-31 09:53:04,233 - demotest -INFO - Clicked on save all button
+2021-05-31 09:53:04,407 - demotest -INFO - After adding scheme, captured screenshot and stored in screenshot folder
+2021-05-31 09:53:04,434 - demotest -INFO - compared expected success message and actual: Both Matched
+2021-05-31 09:53:57,531 - demotest -INFO - Opened Chrome Browser
+2021-05-31 09:54:05,302 - demotest -INFO - Opened WebApplication Url
+2021-05-31 09:54:05,371 - demotest -INFO - Entered User Name
+2021-05-31 09:54:05,444 - demotest -INFO - Entered Password
+2021-05-31 09:54:12,013 - demotest -INFO - Clicked on Login
+2021-05-31 09:54:12,060 - demotest -INFO - Clicked on Main Menu
+2021-05-31 09:54:16,365 - demotest -INFO - Clicked on Discounts Menu
+2021-05-31 09:54:18,405 - demotest -INFO - Clicked on New Scheme Menu
+2021-05-31 09:54:18,483 - demotest -INFO - Clicked on Apply Type drop down
+2021-05-31 09:54:21,799 - demotest -INFO - Selected Apply Type
+2021-05-31 09:54:25,318 - demotest -INFO - Entered scheme Name in scheme Name field
+2021-05-31 09:54:25,386 - demotest -INFO - Clicked on Select Product button
+2021-05-31 09:54:28,474 - demotest -INFO - Clicked on search field under sel product
+2021-05-31 09:54:28,553 - demotest -INFO - Entered the For Sku Name
+2021-05-31 09:54:31,642 - demotest -INFO - Clicked on Searched for skunit
+2021-05-31 09:54:34,749 - demotest -INFO - Entered scheme For quantities
+2021-05-31 09:54:36,857 - demotest -INFO - Entered save cash
+2021-05-31 09:54:36,951 - demotest -INFO - Entered Max save cash
+2021-05-31 09:54:37,029 - demotest -INFO - Entered scheme discount %
+2021-05-31 09:54:37,121 - demotest -INFO - Clicked on Start date field
+2021-05-31 09:54:37,308 - demotest -INFO - Selected scheme start month from date picker
+2021-05-31 09:54:40,408 - demotest -INFO - Selected scheme start day/date from date picker
+2021-05-31 09:54:40,527 - demotest -INFO - Clicked on End date field from date picker
+2021-05-31 09:54:40,719 - demotest -INFO - Selected scheme end month from date picker
+2021-05-31 09:54:40,799 - demotest -INFO - Selected scheme end day/date from date picker
+2021-05-31 09:54:42,937 - demotest -INFO - Clicked on save all button
+2021-05-31 09:54:43,126 - demotest -INFO - After adding scheme, captured screenshot and stored in screenshot folder
+2021-05-31 09:54:43,157 - demotest -INFO - compared expected success message and actual: Both Matched
+2021-05-31 09:58:14,245 - demotest -INFO - Opened Chrome Browser
+2021-05-31 09:58:20,730 - demotest -INFO - Opened WebApplication Url
+2021-05-31 09:58:20,798 - demotest -INFO - Entered User Name
+2021-05-31 09:58:20,869 - demotest -INFO - Entered Password
+2021-05-31 09:58:26,181 - demotest -INFO - Clicked on Login
+2021-05-31 09:58:26,236 - demotest -INFO - Clicked on Main Menu
+2021-05-31 09:58:29,461 - demotest -INFO - Clicked on Discounts Menu
+2021-05-31 09:58:31,356 - demotest -INFO - Clicked on New Scheme Menu
+2021-05-31 09:58:31,417 - demotest -INFO - Clicked on Apply Type drop down
+2021-05-31 09:58:34,757 - demotest -INFO - Selected Apply Type
+2021-05-31 09:58:38,225 - demotest -INFO - Entered scheme Name in scheme Name field
+2021-05-31 09:58:38,291 - demotest -INFO - Clicked on Select Product button
+2021-05-31 09:58:41,399 - demotest -INFO - Clicked on search field under sel product
+2021-05-31 09:58:41,491 - demotest -INFO - Entered the For Sku Name
+2021-05-31 09:58:44,580 - demotest -INFO - Clicked on Searched for skunit
+2021-05-31 09:58:47,695 - demotest -INFO - Entered scheme For quantities
+2021-05-31 09:58:49,784 - demotest -INFO - Entered save cash
+2021-05-31 09:58:49,862 - demotest -INFO - Entered Max save cash
+2021-05-31 09:58:49,945 - demotest -INFO - Entered scheme discount %
+2021-05-31 09:58:50,031 - demotest -INFO - Clicked on Start date field
+2021-05-31 09:58:50,204 - demotest -INFO - Selected scheme start month from date picker
+2021-05-31 09:58:53,310 - demotest -INFO - Selected scheme start day/date from date picker
+2021-05-31 09:58:53,392 - demotest -INFO - Clicked on End date field from date picker
+2021-05-31 09:58:53,571 - demotest -INFO - Selected scheme end month from date picker
+2021-05-31 09:58:53,675 - demotest -INFO - Selected scheme end day/date from date picker
+2021-05-31 09:58:55,899 - demotest -INFO - Clicked on save all button
+2021-05-31 09:58:56,084 - demotest -INFO - After adding scheme, captured screenshot and stored in screenshot folder
+2021-05-31 09:58:56,116 - demotest -INFO - compared expected success message and actual: Both Matched
+2021-05-31 16:06:55,654 - demotest -INFO - Opened Chrome Browser
+2021-05-31 16:07:50,901 - demotest -INFO - Opened Chrome Browser
+2021-05-31 16:10:38,732 - demotest -INFO - Opened Chrome Browser
+2021-05-31 16:19:09,307 - demotest -INFO - Opened Chrome Browser
+2021-05-31 16:21:16,857 - demotest -INFO - Opened Chrome Browser
+2021-05-31 16:22:24,993 - demotest -INFO - Opened Chrome Browser
+2021-05-31 16:23:28,594 - demotest -INFO - Opened Chrome Browser
+2021-05-31 16:26:03,496 - demotest -INFO - Opened Chrome Browser
+2021-05-31 16:41:24,475 - demotest -INFO - Opened Chrome Browser
+2021-05-31 16:43:01,887 - demotest -INFO - Opened Chrome Browser
+2021-05-31 16:43:48,666 - demotest -INFO - Opened Chrome Browser
+2021-05-31 16:47:11,972 - demotest -INFO - Opened Chrome Browser
+2021-05-31 16:48:54,532 - demotest -INFO - Opened Chrome Browser
+2021-05-31 16:50:48,241 - demotest -INFO - Opened Chrome Browser
+2021-05-31 16:54:26,754 - demotest -INFO - Opened Chrome Browser
+2021-05-31 17:00:43,433 - demotest -INFO - Opened Chrome Browser
+2021-05-31 17:01:38,828 - demotest -INFO - Opened Chrome Browser
+2021-06-01 11:27:47,155 - demotest -INFO - Opened Chrome Browser
+2021-06-01 11:27:49,972 - demotest -INFO - Opened WebApplication url
+2021-06-01 11:27:50,063 - demotest -INFO - Entered User Name
+2021-06-01 11:27:50,150 - demotest -INFO - Entered Password
+2021-06-01 11:27:52,250 - demotest -INFO - Clicked On Login
+2021-06-01 11:27:52,490 - demotest -INFO - Login Page Screenshot Taken
+2021-06-01 11:27:52,495 - demotest -INFO - Captured the Login page Title
+2021-06-01 11:27:52,496 - demotest -INFO - Printed the Title on console
+2021-06-01 11:27:52,498 - demotest -INFO - Login Test passed
+2021-06-01 11:27:56,729 - demotest -INFO - Opened Chrome Browser
+2021-06-01 11:27:58,669 - demotest -INFO - Opened WebApplication url
+2021-06-01 11:27:58,750 - demotest -INFO - Entered user name
+2021-06-01 11:27:58,808 - demotest -INFO - Entered Password
+2021-06-01 11:28:00,503 - demotest -INFO - Clicked on Login Button
+2021-06-01 11:28:02,563 - demotest -INFO - Clicked on Person icon on Top right corner of page
+2021-06-01 11:28:03,374 - demotest -INFO - Clicked on LogOut
+2021-06-01 11:28:03,532 - demotest -INFO - ScreeShot taken after clicking on logout
+2021-06-01 11:28:03,570 - demotest -INFO - Compared expected and actual title after logout : Both matched and Test passed
+2021-06-01 11:28:07,822 - demotest -INFO - Opened Chrome Browser
+2021-06-01 11:28:09,774 - demotest -INFO - taken username from excel and entered in username field
+2021-06-01 11:28:09,868 - demotest -INFO - taken Password from excel and entered in username field
+2021-06-01 11:28:10,456 - demotest -INFO - Clicked On Login Button
+2021-06-01 11:28:10,597 - demotest -INFO - Screenshot captured after logout
+2021-06-01 11:28:10,613 - demotest -INFO - Compared actual title after logout and matched: Test Passed
+2021-06-01 11:28:11,833 - demotest -INFO - Opened Chrome Browser
+2021-06-01 11:28:13,378 - demotest -INFO - Opened Web Application url to test invalid credential test
+2021-06-01 11:28:13,444 - demotest -INFO - Entered valid user name
+2021-06-01 11:28:13,509 - demotest -INFO - Entered invalid user name
+2021-06-01 11:28:15,905 - demotest -INFO - Clicked on Login
+2021-06-01 11:28:16,046 - demotest -INFO - ScreenShot taken after clickin on login
+2021-06-01 11:28:16,096 - demotest -INFO - Invalid credentials not allowed to Login: Test Pass
+2021-06-01 11:28:17,288 - demotest -INFO - Opened Chrome Browser
+2021-06-01 11:28:18,829 - demotest -INFO - Opened WebApplication Url
+2021-06-01 11:28:18,892 - demotest -INFO - Entered User Name
+2021-06-01 11:28:18,961 - demotest -INFO - Entered Password
+2021-06-01 11:28:20,598 - demotest -INFO - Clicked on Login
+2021-06-01 11:28:20,645 - demotest -INFO - Clicked on Main Menu
+2021-06-01 11:28:21,826 - demotest -INFO - Clicked on Discounts Menu
+2021-06-01 11:28:22,933 - demotest -INFO - Clicked on New Scheme Menu
+2021-06-01 11:28:23,009 - demotest -INFO - Clicked on Apply Type drop down
+2021-06-01 11:28:26,332 - demotest -INFO - Selected Apply Type
+2021-06-01 11:28:29,456 - demotest -INFO - Entered scheme Name in scheme Name field
+2021-06-01 11:28:29,511 - demotest -INFO - Clicked on Select Product button
+2021-06-01 11:28:32,611 - demotest -INFO - Clicked on search field under sel product
+2021-06-01 11:28:32,691 - demotest -INFO - Entered the For Sku Name
+2021-06-01 11:28:35,784 - demotest -INFO - Clicked on Searched for skunit
+2021-06-01 11:28:38,903 - demotest -INFO - Entered scheme For quantities
+2021-06-01 11:28:41,001 - demotest -INFO - Entered save cash
+2021-06-01 11:28:41,078 - demotest -INFO - Entered Max save cash
+2021-06-01 11:28:41,175 - demotest -INFO - Entered scheme discount %
+2021-06-01 11:28:41,259 - demotest -INFO - Clicked on Start date field
+2021-06-01 11:28:41,400 - demotest -INFO - Selected scheme start month from date picker
+2021-06-01 11:28:44,512 - demotest -INFO - Selected scheme start day/date from date picker
+2021-06-01 11:28:44,600 - demotest -INFO - Clicked on End date field from date picker
+2021-06-01 11:28:44,710 - demotest -INFO - Selected scheme end month from date picker
+2021-06-01 11:28:44,790 - demotest -INFO - Selected scheme end day/date from date picker
+2021-06-01 11:28:45,826 - demotest -INFO - Clicked on save all button
+2021-06-01 11:28:46,000 - demotest -INFO - After adding scheme, captured screenshot and stored in screenshot folder
+2021-06-01 11:28:46,030 - demotest -INFO - compared expected success message and actual: Both Matched
+2021-06-01 11:30:32,725 - demotest -INFO - Opened Chrome Browser
+2021-06-01 11:30:34,538 - demotest -INFO - Opened WebApplication url
+2021-06-01 11:30:34,586 - demotest -INFO - Entered User Name
+2021-06-01 11:30:34,642 - demotest -INFO - Entered Password
+2021-06-01 11:30:36,304 - demotest -INFO - Clicked On Login
+2021-06-01 11:30:36,400 - demotest -INFO - Login Page Screenshot Taken
+2021-06-01 11:30:36,405 - demotest -INFO - Captured the Login page Title
+2021-06-01 11:30:36,405 - demotest -INFO - Printed the Title on console
+2021-06-01 11:30:36,407 - demotest -INFO - Login Test passed
+2021-06-01 11:30:40,631 - demotest -INFO - Opened Chrome Browser
+2021-06-01 11:30:42,339 - demotest -INFO - Opened WebApplication url
+2021-06-01 11:30:42,394 - demotest -INFO - Entered user name
+2021-06-01 11:30:42,450 - demotest -INFO - Entered Password
+2021-06-01 11:30:44,350 - demotest -INFO - Clicked on Login Button
+2021-06-01 11:30:46,436 - demotest -INFO - Clicked on Person icon on Top right corner of page
+2021-06-01 11:30:47,513 - demotest -INFO - Clicked on LogOut
+2021-06-01 11:30:47,591 - demotest -INFO - ScreeShot taken after clicking on logout
+2021-06-01 11:30:47,626 - demotest -INFO - Compared expected and actual title after logout : Both matched and Test passed
+2021-06-01 11:30:51,884 - demotest -INFO - Opened Chrome Browser
+2021-06-01 11:30:53,982 - demotest -INFO - taken username from excel and entered in username field
+2021-06-01 11:30:54,068 - demotest -INFO - taken Password from excel and entered in username field
+2021-06-01 11:30:56,475 - demotest -INFO - Clicked On Login Button
+2021-06-01 11:30:56,551 - demotest -INFO - Screenshot captured after logout
+2021-06-01 11:30:56,555 - demotest -INFO - Compared actual title after logout and matched: Test Passed
+2021-06-01 11:30:57,756 - demotest -INFO - Opened Chrome Browser
+2021-06-01 11:30:59,627 - demotest -INFO - Opened Web Application url to test invalid credential test
+2021-06-01 11:30:59,675 - demotest -INFO - Entered valid user name
+2021-06-01 11:30:59,731 - demotest -INFO - Entered invalid user name
+2021-06-01 11:31:02,468 - demotest -INFO - Clicked on Login
+2021-06-01 11:31:02,534 - demotest -INFO - ScreenShot taken after clickin on login
+2021-06-01 11:31:02,568 - demotest -INFO - Invalid credentials not allowed to Login: Test Pass
+2021-06-01 11:31:03,749 - demotest -INFO - Opened Chrome Browser
+2021-06-01 11:31:05,675 - demotest -INFO - Opened WebApplication Url
+2021-06-01 11:31:05,734 - demotest -INFO - Entered User Name
+2021-06-01 11:31:05,789 - demotest -INFO - Entered Password
+2021-06-01 11:31:07,619 - demotest -INFO - Clicked on Login
+2021-06-01 11:31:07,673 - demotest -INFO - Clicked on Main Menu
+2021-06-01 11:31:09,149 - demotest -INFO - Clicked on Discounts Menu
+2021-06-01 11:31:09,897 - demotest -INFO - Clicked on New Scheme Menu
+2021-06-01 11:31:09,964 - demotest -INFO - Clicked on Apply Type drop down
+2021-06-01 11:31:13,286 - demotest -INFO - Selected Apply Type
+2021-06-01 11:31:16,419 - demotest -INFO - Entered scheme Name in scheme Name field
+2021-06-01 11:31:16,489 - demotest -INFO - Clicked on Select Product button
+2021-06-01 11:31:19,590 - demotest -INFO - Clicked on search field under sel product
+2021-06-01 11:31:19,670 - demotest -INFO - Entered the For Sku Name
+2021-06-01 11:31:22,764 - demotest -INFO - Clicked on Searched for skunit
+2021-06-01 11:31:25,862 - demotest -INFO - Entered scheme For quantities
+2021-06-01 11:31:27,967 - demotest -INFO - Entered save cash
+2021-06-01 11:31:28,057 - demotest -INFO - Entered Max save cash
+2021-06-01 11:31:28,140 - demotest -INFO - Entered scheme discount %
+2021-06-01 11:31:28,234 - demotest -INFO - Clicked on Start date field
+2021-06-01 11:31:28,358 - demotest -INFO - Selected scheme start month from date picker
+2021-06-01 11:31:31,450 - demotest -INFO - Selected scheme start day/date from date picker
+2021-06-01 11:31:31,536 - demotest -INFO - Clicked on End date field from date picker
+2021-06-01 11:31:31,649 - demotest -INFO - Selected scheme end month from date picker
+2021-06-01 11:31:31,745 - demotest -INFO - Selected scheme end day/date from date picker
+2021-06-01 11:31:32,860 - demotest -INFO - Clicked on save all button
+2021-06-01 11:31:32,974 - demotest -INFO - After adding scheme, captured screenshot and stored in screenshot folder
+2021-06-01 11:31:33,003 - demotest -INFO - compared expected success message and actual: Both Matched
+2021-06-02 07:00:58,332 - demotest -INFO - Opened Chrome Browser
+2021-06-02 07:01:01,160 - demotest -INFO - Opened WebApplication url
+2021-06-02 07:01:01,299 - demotest -INFO - Entered User Name
+2021-06-02 07:01:01,435 - demotest -INFO - Entered Password
+2021-06-02 07:01:04,413 - demotest -INFO - Clicked On Login
+2021-06-02 07:01:04,507 - demotest -INFO - Login Page Screenshot Taken
+2021-06-02 07:01:04,512 - demotest -INFO - Captured the Login page Title
+2021-06-02 07:01:04,513 - demotest -INFO - Printed the Title on console
+2021-06-02 07:01:04,514 - demotest -INFO - Login Test passed
+2021-06-02 07:01:08,844 - demotest -INFO - Opened Chrome Browser
+2021-06-02 07:01:10,905 - demotest -INFO - Opened WebApplication url
+2021-06-02 07:01:10,962 - demotest -INFO - Entered user name
+2021-06-02 07:01:11,037 - demotest -INFO - Entered Password
+2021-06-02 07:01:13,354 - demotest -INFO - Clicked on Login Button
+2021-06-02 07:01:15,443 - demotest -INFO - Clicked on Person icon on Top right corner of page
+2021-06-02 07:01:16,914 - demotest -INFO - Clicked on LogOut
+2021-06-02 07:01:17,069 - demotest -INFO - ScreeShot taken after clicking on logout
+2021-06-02 07:01:17,107 - demotest -INFO - Compared expected and actual title after logout : Both matched and Test passed
+2021-06-02 07:01:21,514 - demotest -INFO - Opened Chrome Browser
+2021-06-02 07:01:24,270 - demotest -INFO - taken username from excel and entered in username field
+2021-06-02 07:01:24,461 - demotest -INFO - taken Password from excel and entered in username field
+2021-06-02 07:01:27,968 - demotest -INFO - Clicked On Login Button
+2021-06-02 07:01:28,053 - demotest -INFO - Screenshot captured after logout
+2021-06-02 07:01:28,057 - demotest -INFO - Compared actual title after logout and matched: Test Passed
+2021-06-02 07:01:29,413 - demotest -INFO - Opened Chrome Browser
+2021-06-02 07:01:31,952 - demotest -INFO - Opened Web Application url to test invalid credential test
+2021-06-02 07:01:32,082 - demotest -INFO - Entered valid user name
+2021-06-02 07:01:32,209 - demotest -INFO - Entered invalid user name
+2021-06-02 07:01:34,999 - demotest -INFO - Clicked on Login
+2021-06-02 07:01:35,081 - demotest -INFO - ScreenShot taken after clickin on login
+2021-06-02 07:01:35,120 - demotest -INFO - Invalid credentials not allowed to Login: Test Pass
+2021-06-02 07:01:36,391 - demotest -INFO - Opened Chrome Browser
+2021-06-02 07:01:39,889 - demotest -INFO - Opened WebApplication Url
+2021-06-02 07:01:39,994 - demotest -INFO - Entered User Name
+2021-06-02 07:01:40,130 - demotest -INFO - Entered Password
+2021-06-02 07:01:43,085 - demotest -INFO - Clicked on Login
+2021-06-02 07:01:43,202 - demotest -INFO - Clicked on Main Menu
+2021-06-02 07:01:44,637 - demotest -INFO - Clicked on Discounts Menu
+2021-06-02 07:01:46,197 - demotest -INFO - Clicked on New Scheme Menu
+2021-06-02 07:01:46,270 - demotest -INFO - Clicked on Apply Type drop down
+2021-06-02 07:01:49,591 - demotest -INFO - Selected Apply Type
+2021-06-02 07:01:52,779 - demotest -INFO - Entered scheme Name in scheme Name field
+2021-06-02 07:01:52,849 - demotest -INFO - Clicked on Select Product button
+2021-06-02 07:01:56,015 - demotest -INFO - Clicked on search field under sel product
+2021-06-02 07:01:56,149 - demotest -INFO - Entered the For Sku Name
+2021-06-02 07:01:59,291 - demotest -INFO - Clicked on Searched for skunit
+2021-06-02 07:02:02,425 - demotest -INFO - Entered scheme For quantities
+2021-06-02 07:02:04,615 - demotest -INFO - Entered save cash
+2021-06-02 07:02:04,772 - demotest -INFO - Entered Max save cash
+2021-06-02 07:02:04,931 - demotest -INFO - Entered scheme discount %
+2021-06-02 07:02:05,135 - demotest -INFO - Clicked on Start date field
+2021-06-02 07:02:05,334 - demotest -INFO - Selected scheme start month from date picker
+2021-06-02 07:02:08,542 - demotest -INFO - Selected scheme start day/date from date picker
+2021-06-02 07:02:08,745 - demotest -INFO - Clicked on End date field from date picker
+2021-06-02 07:02:08,888 - demotest -INFO - Selected scheme end month from date picker
+2021-06-02 07:02:09,048 - demotest -INFO - Selected scheme end day/date from date picker
+2021-06-02 07:02:11,115 - demotest -INFO - Clicked on save all button
+2021-06-02 07:02:11,252 - demotest -INFO - After adding scheme, captured screenshot and stored in screenshot folder
+2021-06-02 07:02:11,325 - demotest -INFO - compared expected success message and actual: Both Matched
+2021-06-03 07:00:56,043 - demotest -INFO - Opened Chrome Browser
+2021-06-03 07:00:58,833 - demotest -INFO - Opened WebApplication url
+2021-06-03 07:00:58,906 - demotest -INFO - Entered User Name
+2021-06-03 07:00:58,973 - demotest -INFO - Entered Password
+2021-06-03 07:01:01,782 - demotest -INFO - Clicked On Login
+2021-06-03 07:01:01,988 - demotest -INFO - Login Page Screenshot Taken
+2021-06-03 07:01:01,994 - demotest -INFO - Captured the Login page Title
+2021-06-03 07:01:01,994 - demotest -INFO - Printed the Title on console
+2021-06-03 07:01:01,995 - demotest -INFO - Login Test passed
+2021-06-03 07:01:06,405 - demotest -INFO - Opened Chrome Browser
+2021-06-03 07:01:08,513 - demotest -INFO - Opened WebApplication url
+2021-06-03 07:01:08,613 - demotest -INFO - Entered user name
+2021-06-03 07:01:08,741 - demotest -INFO - Entered Password
+2021-06-03 07:01:11,299 - demotest -INFO - Clicked on Login Button
+2021-06-03 07:01:13,466 - demotest -INFO - Clicked on Person icon on Top right corner of page
+2021-06-03 07:01:15,019 - demotest -INFO - Clicked on LogOut
+2021-06-03 07:01:15,179 - demotest -INFO - ScreeShot taken after clicking on logout
+2021-06-03 07:01:15,231 - demotest -INFO - Compared expected and actual title after logout : Both matched and Test passed
+2021-06-03 07:01:19,507 - demotest -INFO - Opened Chrome Browser
+2021-06-03 07:01:22,261 - demotest -INFO - taken username from excel and entered in username field
+2021-06-03 07:01:22,421 - demotest -INFO - taken Password from excel and entered in username field
+2021-06-03 07:01:25,882 - demotest -INFO - Clicked On Login Button
+2021-06-03 07:01:25,947 - demotest -INFO - Screenshot captured after logout
+2021-06-03 07:01:25,951 - demotest -INFO - Compared actual title after logout and matched: Test Passed
+2021-06-03 07:01:27,254 - demotest -INFO - Opened Chrome Browser
+2021-06-03 07:01:29,652 - demotest -INFO - Opened Web Application url to test invalid credential test
+2021-06-03 07:01:29,773 - demotest -INFO - Entered valid user name
+2021-06-03 07:01:29,891 - demotest -INFO - Entered invalid user name
+2021-06-03 07:01:33,059 - demotest -INFO - Clicked on Login
+2021-06-03 07:01:33,200 - demotest -INFO - ScreenShot taken after clickin on login
+2021-06-03 07:01:33,251 - demotest -INFO - Invalid credentials not allowed to Login: Test Pass
+2021-06-03 07:01:34,590 - demotest -INFO - Opened Chrome Browser
+2021-06-03 07:01:36,957 - demotest -INFO - Opened WebApplication Url
+2021-06-03 07:01:37,022 - demotest -INFO - Entered User Name
+2021-06-03 07:01:37,088 - demotest -INFO - Entered Password
+2021-06-03 07:01:40,431 - demotest -INFO - Clicked on Login
+2021-06-03 07:01:40,578 - demotest -INFO - Clicked on Main Menu
+2021-06-03 07:01:42,294 - demotest -INFO - Clicked on Discounts Menu
+2021-06-03 07:01:43,918 - demotest -INFO - Clicked on New Scheme Menu
+2021-06-03 07:01:44,044 - demotest -INFO - Clicked on Apply Type drop down
+2021-06-03 07:01:47,436 - demotest -INFO - Selected Apply Type
+2021-06-03 07:01:50,705 - demotest -INFO - Entered scheme Name in scheme Name field
+2021-06-03 07:01:50,841 - demotest -INFO - Clicked on Select Product button
+2021-06-03 07:01:54,056 - demotest -INFO - Clicked on search field under sel product
+2021-06-03 07:01:54,205 - demotest -INFO - Entered the For Sku Name
+2021-06-03 07:01:57,359 - demotest -INFO - Clicked on Searched for skunit
+2021-06-03 07:02:00,518 - demotest -INFO - Entered scheme For quantities
+2021-06-03 07:02:02,694 - demotest -INFO - Entered save cash
+2021-06-03 07:02:02,844 - demotest -INFO - Entered Max save cash
+2021-06-03 07:02:03,003 - demotest -INFO - Entered scheme discount %
+2021-06-03 07:02:03,252 - demotest -INFO - Clicked on Start date field
+2021-06-03 07:02:03,391 - demotest -INFO - Selected scheme start month from date picker
+2021-06-03 07:02:06,591 - demotest -INFO - Selected scheme start day/date from date picker
+2021-06-03 07:02:06,787 - demotest -INFO - Clicked on End date field from date picker
+2021-06-03 07:02:06,982 - demotest -INFO - Selected scheme end month from date picker
+2021-06-03 07:02:07,144 - demotest -INFO - Selected scheme end day/date from date picker
+2021-06-03 07:02:09,116 - demotest -INFO - Clicked on save all button
+2021-06-03 07:02:09,267 - demotest -INFO - After adding scheme, captured screenshot and stored in screenshot folder
+2021-06-03 07:02:09,329 - demotest -INFO - compared expected success message and actual: Both Matched

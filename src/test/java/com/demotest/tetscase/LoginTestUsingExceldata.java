@@ -13,7 +13,7 @@ import com.google.common.io.Files;
 
 public class LoginTestUsingExceldata extends BaseClass
 {
-	@Test(priority=4) 
+	@Test 
 	public void loginTestExcel() throws IOException
 	{
 		driver.get(baseURL);

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="Test(failed)" parallel="tests">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.demotest.tetscase.TC_LoginTest_001">
+      <class name="com.demotest.tetscase.AssignSchemeToWarehouse">
         <methods>
+          <include name="testAssignSchemeToWarehouse"/>
           <include name="openBrowser"/>
           <include name="closeBrowser"/>
-          <include name="testLogin"/>
         </methods>
-      </class> <!-- com.demotest.tetscase.TC_LoginTest_001 -->
+      </class> <!-- com.demotest.tetscase.AssignSchemeToWarehouse -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

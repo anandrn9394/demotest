@@ -17,7 +17,7 @@ import com.google.common.io.Files;
 
 public class TC_ChangePassword_003 extends BaseClass
 {
-	@Test(priority=6)
+	@Test
 	public void testChangePassword() throws InterruptedException, IOException
 	{
 		driver.get(baseURL);

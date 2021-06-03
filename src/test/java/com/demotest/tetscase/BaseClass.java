@@ -1,9 +1,12 @@
 package com.demotest.tetscase;
+
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.codec.binary.Base64;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -28,6 +31,7 @@ public class BaseClass
   
     public String validusername=readconfig.getvalidUserName();
     public String invalidpassword=readconfig.getInvalidPasword();
+//    public String schemeindex=readconfig.getSchemeIndex();
 	public static WebDriver driver;
 	public ExcelLibrary xlib;
 	
@@ -59,7 +63,13 @@ public class BaseClass
 
 		}
 	}
-	
+/*	public static String decodePassword(String password)
+	{
+		byte[] decodedPwd = Base64.decodeBase64(password);
+		return(new String(decodedPwd));
+		
+	}*/
+
 	@AfterClass
 	public void closeBrowser()
 	{

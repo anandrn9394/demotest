@@ -15,8 +15,8 @@ import com.google.common.io.Files;
 
 public class TC_LoginTest_001 extends BaseClass
 {
-	@Test(priority=1)
-	public void testLogin() throws IOException
+	@Test
+	public void testLogIn() throws IOException, InterruptedException
 	{
 		LoginPage lp = new LoginPage(driver);
 
@@ -46,6 +46,7 @@ public class TC_LoginTest_001 extends BaseClass
 		{
 			Assert.assertTrue(true);
 			logger.info("Login Test passed");
+			Thread.sleep(3000);
 			
 		}
 		else {
